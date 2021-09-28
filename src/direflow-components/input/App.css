@@ -1,0 +1,24 @@
+.wrapper {
+  display: inline-block;
+  width: 100%;
+}
+
+.input {
+  display: block;
+  padding: 8px 16px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #4c2a86;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.input.rounded {
+  border-radius: 20px;
+}
