@@ -9,8 +9,38 @@
   </head>
   <body>
     <div style="width: 100%;">
-      <!-- <wc-button label="Submit"></wc-button> -->
-      <wc-input placeholder="yolooo"></wc-input>
+      <section style="padding: 16px">
+        <h1>wc-button usage</h1>
+        <code>
+          tag: wc-button
+          props: {
+            label: ''
+            disabled: false
+            rounded: false
+          }
+          event: {
+            event-click: (e: HTMLEvent) => {}
+          }
+        </code>
+        <wc-button label="Submit"></wc-button>
+      </section>
+      <section style="padding: 16px">
+        <h1>wc-input usage</h1>
+        <code>
+          tag: wc-button
+          props: {
+            placeholder: ''
+            pattern: '\\D+'
+            warningMessage: ''
+            emptyMessage: ''
+            rounded: false
+          }
+          event: {
+            event-change: (e: HTMLEvent) => {}
+          }
+        </code>
+        <wc-input required placeholder="yolooo" emptyMessage="TAK BOLEH KOSONG" warningMessage="gak bisa gini lah cuk"></wc-input>
+      </section>
     </div>
   </body>
 </html>

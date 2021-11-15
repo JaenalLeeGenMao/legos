@@ -18,7 +18,8 @@ const App = (props) => {
       <button
         className={[
           'button',
-          props.disabled ? 'disabled' : ''
+          props.disabled ? 'disabled' : '',
+          props.rounded ? 'rounded' : ''
         ].join(' ')}
         onClick={handleClick}
       >
@@ -30,12 +31,14 @@ const App = (props) => {
 
 App.defaultProps = {
   label: '',
-  disabled: false
+  disabled: false,
+  rounded: false
 }
 
 App.propTypes = {
   label: PropTypes.string,
-  disabled: PropTypes.bool
+  disabled: PropTypes.bool,
+  rounded: PropTypes.bool
 };
 
 export default App;

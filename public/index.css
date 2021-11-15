@@ -1,10 +1,24 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: monospace;
+}
+
 body {
   padding: 0;
   margin: 0;
   width: 100vw;
-  padding-top: 150px;
+  /* padding-top: 150px; */
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #F6FAFA;
+}
+
+code {
+  white-space: break-spaces;
 }
