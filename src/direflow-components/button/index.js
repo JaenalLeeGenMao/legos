@@ -7,13 +7,13 @@ export default DireflowComponent.create({
     tagname: 'wc-button',
   },
   plugins: [
-    {
-      name: 'font-loader',
-      options: {
-        google: {
-          families: ['Advent Pro', 'Noto Sans JP'],
-        },
-      },
-    },
+    // {
+    //   name: 'font-loader',
+    //   options: {
+    //     google: {
+    //       families: ['Advent Pro', 'Noto Sans JP'],
+    //     },
+    //   },
+    // },
   ],
 });

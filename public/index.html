@@ -41,6 +41,37 @@
         </code>
         <wc-input required placeholder="yolooo" emptyMessage="TAK BOLEH KOSONG" warningMessage="gak bisa gini lah cuk"></wc-input>
       </section>
+      <section style="padding: 16px">
+        <h1>wc-button-sheet usage</h1>
+        <code>
+          tag: wc-bottom-sheet
+          props: {
+            open: false
+          }
+          event: {
+            event-change: (e: HTMLEvent) => {}
+          }
+        </code>
+        <button onclick="document.getElementsByTagName('wc-bottom-sheet')[0].setAttribute('open', 'true')" style="padding: 8px 16px; color: white; background-color: #5f24d3; border-radius: 4px;">open bottom sheet</button>
+        <wc-bottom-sheet>
+          <div>
+            <p>viva la mola</p>
+            <ul style="list-style: telugu; text-decoration: none; padding: 20px;">
+              <li>lorem</li>
+              <li>ipsum</li>
+              <li>dolor</li>
+              <li>sit</li>
+            </ul>
+          </div>
+        </wc-bottom-sheet>
+        <script>
+          const bottomSheetEl = document.getElementsByTagName("wc-bottom-sheet")[0];
+          bottomSheetEl.addEventListener("event-close", () => {
+            bottomSheetEl.setAttribute('open', 'false');
+            // bottomSheetEl.removeAttribute('open');
+          });
+        </script>
+      </section>
     </div>
   </body>
 </html>
