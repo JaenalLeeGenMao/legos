@@ -93,8 +93,8 @@ npm run start
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx" async></script>
-    <script src="./wc-legos.js" async></script>
+    <script src="/wc-legos.js" defer></script>
+    <script type="module" src="/src/main.jsx" defer></script>
   </body>
 </html>
 ```
