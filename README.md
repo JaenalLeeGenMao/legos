@@ -1,3 +1,5 @@
+![background](./legos-readme.png)
+
 This component was bootstrapped with [Direflow](https://direflow.io).
 
 # Wc Legos
