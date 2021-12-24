@@ -105,3 +105,7 @@ npm run start
 
 To give you a history of how we decided on using web components.
 Javascript has been moving at a very fast pace, every year new frameworks are introduced to solve new problems. To tackle this diversity of frameworks, web component is one of the leap we need to embrace. Web component works on basic html5, every framework runs on html. You get the idea, well it seems to good to be true what are the cons? good question, web component only support modern browser. This is one of the tradeoffs you as a developer should decide.
+
+## Deployment
+
+From today onwards I decided to follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/). I will be using [standard version](https://www.npmjs.com/package/standard-version) to generate my changelog since I prefer automated versioning.
