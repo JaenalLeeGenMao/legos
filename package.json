@@ -12,11 +12,11 @@
   "homepage": "https://direflow.io/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Silind-Software/direflow"
+    "url": "https://github.com/JaenalLeeGenMao/legos"
   },
   "bugs": {
-    "email": "direflow@silind.com",
-    "url": "https://github.com/Silind-Software/direflow/issues/new"
+    "email": "jaenal.leegenmao@gmail.com",
+    "url": "https://github.com/JaenalLeeGenMao/legos/issues/new"
   },
   "main": "build/wc-legos.js",
   "files": [
@@ -28,6 +28,11 @@
     "build:lib": "direflow-scripts build:lib",
     "release": "standard-version",
     "test": "direflow-scripts test"
+  },
+  "standard-version": {
+    "scripts": {
+      "postchangelog": "replace 'https://github.com/Silind-Software/direflow/' 'https://github.com/JaenalLeeGenMao/legos' CHANGELOG.md"
+    }
   },
   "dependencies": {
     "direflow-component": "3.5.5",
