@@ -29,11 +29,6 @@
     "release": "standard-version",
     "test": "direflow-scripts test"
   },
-  "standard-version": {
-    "scripts": {
-      "postchangelog": "replace 'https://github.com/Silind-Software/direflow/' 'https://github.com/JaenalLeeGenMao/legos' CHANGELOG.md"
-    }
-  },
   "dependencies": {
     "direflow-component": "3.5.5",
     "direflow-scripts": "3.5.5",
