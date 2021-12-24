@@ -117,3 +117,9 @@ The Standard Version suggests that we now run `git push --follow-tags origin mas
 When Standard Version runs, it figures out the changelog and the version by comparing the changes with the latest tag version on your local repository. If you don’t have the latest tags fetched, you might run into unexpected results when generating the changelog. I’ve bumped into this issue in the past.
 
 To make sure that you have all of the tags fetched, you can run `git fetch --all --tags`.
+
+To ensure that things on changelog are behaving as expected, you can
+
+| Commands                       | Notes                                                                                                                |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| `npm run release -- --dry-run` | with the flag `--dry-run` allows you to see what commands would be run, without committing to git or updating files. |
