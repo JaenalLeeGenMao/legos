@@ -1,7 +1,7 @@
 {
   "name": "wc-legos",
   "description": "common components made by OVO",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "",
   "license": "MIT",
   "keywords": [
@@ -52,6 +52,7 @@
     "jest-environment-jsdom-fourteen": "0.1.0",
     "react-app-rewired": "2.1.3",
     "react-test-renderer": "16.9.0",
+    "replace": "1.2.1",
     "standard-version": "9.3.2",
     "to-string-loader": "1.1.6",
     "webpack-cli": "3.3.11"
