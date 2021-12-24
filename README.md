@@ -109,3 +109,11 @@ Javascript has been moving at a very fast pace, every year new frameworks are in
 ## Deployment
 
 From today onwards I decided to follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/). I will be using [standard version](https://www.npmjs.com/package/standard-version) to generate my changelog since I prefer automated versioning.
+
+We can also see here that Standard Version automatically committed all of the changes to the changelog.
+
+The Standard Version suggests that we now run `git push --follow-tags origin master`. This pushes all of our changes along with the tags.
+
+When Standard Version runs, it figures out the changelog and the version by comparing the changes with the latest tag version on your local repository. If you don’t have the latest tags fetched, you might run into unexpected results when generating the changelog. I’ve bumped into this issue in the past.
+
+To make sure that you have all of the tags fetched, you can run `git fetch --all --tags`.
